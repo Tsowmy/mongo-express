@@ -1,0 +1,38 @@
+body{
+    background-color: #80779b;
+
+}
+.container{
+    padding:10px;
+    max-width:500px;
+    margin:100px auto;
+    background-color: #2b1e51;
+    color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px whitesmoke;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+form label{
+    font-size: 19px;
+
+}
+font input{
+    padding:10px;
+    border-radius: 20px;
+    border:none;
+    outline:none;
+   
+}
+form select{
+    padding:8px;
+}
+button{
+    padding:8px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-top: 5px;
+}
